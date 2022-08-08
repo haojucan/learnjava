@@ -36,7 +36,7 @@ public class UsersDao {
     }
 
     // 查询所有的User对象
-    public ArrayList<User> find9All() {
+    public ArrayList<User> findAll() {
         Connection conn = null;
         PreparedStatement preStmt = null;
         ResultSet rs = null;
@@ -74,7 +74,7 @@ public class UsersDao {
     public User find(int id) {
         Connection conn = null;
         PreparedStatement preStmt = null;
-        ResultSet rss = null;
+        ResultSet rs = null;
         //获得数据库连接
         try {
             conn = JDBCUtils.getConnection();
@@ -83,7 +83,7 @@ public class UsersDao {
             preStmt = conn.prepareStatement(SQL);
             preStmt.setInt(1, id);
             //处理结果集
-            ResultSet rs = preStmt.executeQuery();
+            rs = preStmt.executeQuery();
             User user = new User();
             while (rs.next()) {
                 user.setId(rs.getInt("id"));
@@ -99,7 +99,7 @@ public class UsersDao {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         } finally {
-            JDBCUtils.release(rss, preStmt, conn);
+            JDBCUtils.release(rs, preStmt, conn);
         }
 
     }

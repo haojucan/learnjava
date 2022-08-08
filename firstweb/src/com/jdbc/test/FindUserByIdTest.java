@@ -4,7 +4,7 @@ import com.jdbc.test.dao.UsersDao;
 
 
 public class FindUserByIdTest {
-    
+
     public static void main(String[] args) {
         UsersDao usersDao = new UsersDao();
         User user = usersDao.find(4);
