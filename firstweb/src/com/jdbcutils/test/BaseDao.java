@@ -6,6 +6,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 
 public class BaseDao {
     public static Object query(String sql, ResultSetHandler<?> rsh, Object... params) throws SQLException {

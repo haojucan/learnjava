@@ -2,9 +2,11 @@ package com.jdbcutils.test;
 
 import org.apache.commons.dbutils.handlers.BeanHandler;
 
+import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public class ResultSetTest1 {
+
     public static void testBeanHandler() throws SQLException {
 //        BaseDao baseDao = BaseDao;
         String sql = "SELECT * from user WHERE id =?";
