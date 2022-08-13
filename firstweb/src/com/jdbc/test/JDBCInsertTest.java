@@ -2,7 +2,6 @@ package com.jdbc.test;
 
 import com.jdbc.test.dao.UsersDao;
 
-import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class JDBCInsertTest {

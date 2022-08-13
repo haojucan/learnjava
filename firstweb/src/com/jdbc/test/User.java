@@ -5,7 +5,7 @@ import java.util.Date;
 //创建JavaBean
 public class User {
     private int id;
-    private String username;
+    private String name;
     private  String password;
     private String email;
     private Date birthday;
@@ -19,11 +19,11 @@ public class User {
     }
 
     public String getUsername() {
-        return username;
+        return name;
     }
 
     public void setUsername(String username) {
-        this.username = username;
+        this.name = username;
     }
 
     public String getPassword() {
@@ -49,4 +49,6 @@ public class User {
     public Date getBirthday() {
         return birthday;
     }
+
+
 }
