@@ -25,5 +25,6 @@
     <orderEntry type="library" name="commons.pool" level="project" />
     <orderEntry type="library" name="c3p0" level="project" />
     <orderEntry type="library" name="commons.dbutils" level="project" />
+    <orderEntry type="library" name="commons.fileupload" level="project" />
   </component>
 </module>
