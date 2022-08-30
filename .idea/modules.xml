@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JSPModel/JSPModel.iml" filepath="$PROJECT_DIR$/JSPModel/JSPModel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data_structure/data_structure.iml" filepath="$PROJECT_DIR$/data_structure/data_structure.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/learnjavaweb.iml" filepath="$PROJECT_DIR$/.idea/learnjavaweb.iml" />
     </modules>
