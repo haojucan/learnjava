@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demo" />
+        <module name="reflect" />
         <module name="data_structure" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="data_structure" target="1.8" />
       <module name="demo" target="1.8" />
+      <module name="reflect" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
